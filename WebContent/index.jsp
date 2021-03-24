@@ -40,8 +40,7 @@
 		//jary.put(jo);
                 //out.print(rs.getString(1));
         }
-        out.print("<b><i>Query("+sql+") Result</b><br><br>");
-		out.print("JSON: <br>" + jo.toString());
+        out.print(jo.toString());
         }catch(Exception e){
 			e.printStackTrace();
 		}
